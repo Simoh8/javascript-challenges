@@ -10,7 +10,7 @@ function checkForSequence(password) {
           // Increment the sequence length
           sequenceLength++;
           // If the sequence length is greater than or equal to 5
-          if (sequenceLength >= 5) {
+          if (sequenceLength >=  5) {
               // Return an error message
               return "Error: Password contains a sequence of 5 or more characters.";
           }
